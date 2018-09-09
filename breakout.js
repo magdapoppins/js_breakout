@@ -98,8 +98,8 @@ function drawBall() {
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
-    console.log("Drawing ball...?", x, y, ballRadius)
 }
+
 function drawBase() {
     ctx.beginPath();
     ctx.rect(baseX, canvas.height-baseHeight, baseWidth, baseHeight);
