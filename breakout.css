@@ -1,0 +1,8 @@
+canvas { 
+    display: block; 
+    margin: 0 auto; 
+}
+body {
+    background-image: linear-gradient(rgb(243, 243, 207), rgb(192, 81, 17));
+    min-height: 100vh;
+}
