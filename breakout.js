@@ -5,8 +5,8 @@ var ctx = canvas.getContext("2d")
 var ballRadius = 10
 
 // Pallon muuttujat
-var x = canvas.width / 2
-var y = canvas.heigth - 20
+var x = canvas.width/2
+var y = canvas.height-20
 var dx = 2
 var dy = -2
 
@@ -98,6 +98,7 @@ function drawBall() {
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
+    console.log("Drawing ball...?", x, y, ballRadius)
 }
 function drawBase() {
     ctx.beginPath();
